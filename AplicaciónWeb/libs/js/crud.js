@@ -87,7 +87,7 @@ function cargarDatos(){
 					var precio=row.precio;
 					$("#listaProductos").append('<tr id="fila'+id+'" class="Reg_A'+id+'"><td><span class="mid">A'+
 					id+'</span></td><td><span>'+item+'</span></td><td><span>'+
-					precio+' USD$</span></td><td><button type="button" id="A'+id+'" class="btn btn-success" onclick="editar()"><img src="libs/img/edit.png" /></button></td><td><button type="button" id="A'+id+'" class="btn btn-danger" onclick="eliminarRegistro()"><img src="libs/img/delete.png" /></button></td></tr>');
+					precio+' Pesos$</span></td><td><button type="button" id="A'+id+'" class="btn btn-success" onclick="editar()"><img src="libs/img/edit.png" /></button></td><td><button type="button" id="A'+id+'" class="btn btn-danger" onclick="eliminarRegistro()"><img src="libs/img/delete.png" /></button></td></tr>');
 				}
 			}else{
 				$("#listaProductos").append('<tr><td colspan="5" align="center">No existen registros de productos</td></tr>');
